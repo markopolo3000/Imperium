@@ -72,7 +72,7 @@ body{margin:0;font-size:13px;line-height:18px;color:#000000;}
 p{margin:0 0 9px;font-size:13px;line-height:18px;}p small{font-size:11px;color:#999999;}
 .lead{margin-bottom:18px;font-size:20px;font-weight:200;line-height:27px;}
 h1,h2,h3,h4,h5,h6{margin:0;font-family:inherit;font-weight:bold;color:inherit;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;}
-h1{font-size: 210px;line-height:1;}h1 small{font-size:18px;}
+h1{font-size: 175px;line-height:1;}h1 small{font-size:18px;}
 h2{font-size:24px;line-height:36px;}h2 small{font-size:18px;}
 h3{line-height:27px;font-size:18px;}h3 small{font-size:14px;}
 h4,h5,h6{line-height:18px;}
@@ -117,7 +117,7 @@ legend{display:block;width:100%;padding:0;margin-bottom:27px;font-size:19.5px;li
 label,input,button,select,textarea{font-size:13px;font-weight:normal;line-height:18px;}
 input,button,select,textarea{font-family: 'Space Mono';}
 label{display:block;margin-bottom:5px;color:#333333;}
-input,textarea,select,.uneditable-input{display:inline-block;width:210px;height:18px;padding:4px;margin-bottom:9px;font-size:13px;line-height:18px;color:#555555;border:1px solid #cccccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+input,textarea,select,.uneditable-input{display:inline-block;width:500px;height:18px;padding:4px;margin-bottom:9px;font-size:13px;line-height:18px;color:#555555;border:1px solid #cccccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
 .uneditable-textarea{width:auto;height:auto;}
 label input,label textarea,label select{display:block;}
 input[type="image"],input[type="checkbox"],input[type="radio"]{width:auto;height:auto;padding:0;margin:3px 0;*margin-top:0;line-height:normal;cursor:pointer;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;border:0 \9;}
