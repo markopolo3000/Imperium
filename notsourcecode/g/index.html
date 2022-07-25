@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Imperium / G</title>
+        <meta charset="UTF-8">
+        <meta name="title" content="Imperium">
+        <meta name="description" content="Welcome to Imperium Games!">
+        <meta name="keywords" content="Imperium">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
+        <link rel="stylesheet" href="../styles/gamestyle.css">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Space%20Mono" rel="stylesheet">
+        <script src="../scripts/lock.js"></script>
+    </head>
+    <body oncontextmenu="return false;">
+        <!--START NAVBAR-->
+        <div class="navbar navbar-fixed-top">
+            <ul class="nav">
+                <a style="margin: auto;" class="brand" href="#">Imperium Proxies</a>
+                <li><a class="active" href="../">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="../info/index.html">Info</a></li>
+                <li><a href="../apps/index.html">Apps</a></li>
+                <li><a href="https://v3.bigfootgaming.tk" class="right">Bigfoot's Game Shack</a></li>
+              </ul>
+        </div>
+            <div class="gameslist">
+                <div class="row">
+                <div style="padding-left: 20px"id="buttonDiv"></div>
+                <script type="text/javascript">
+                    var buttonArr = [
+        {
+            "name": "Temple Run 2",
+            "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
+            "img": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+        },
+        {
+        
+        "name": "1v1.lol",
+        "url": "https://advanced-channeler.02.gz-associates.com/?t=tam-1v1-lol",
+        "img": "thumbnails/img46.jpg",
+    }, {
+        
+        "name": "Zombs Royale",
+        "url": "https://theadvancedsociety-tam.tbt.mx/tmm-zombsroyale/",
+        "img": "thumbnails/img47.png",
+    }, 
+    {
+        
+        "name": "Shell Shockers",
+        "url": "https://tam-shellshockers.arfotoarte.com/",
+        "img": "thumbnails/img48.png",
+    }, 
+    {
+        
+        "name": "Blockpost.io",
+        "url": "https://ikatchelo.github.io/blockpost/",
+        "img": "thumbnails/img45.png",
+    }, 
+    {
+        
+        "name": "Rooftop Snipers",
+        "url": "https://bigfoot9999.github.io/3kh0.github.io/projects/rooftop-snipers/",
+        "img": "thumbnails/img49.png",
+    }, 
+    {
+        
+        "name": "Pixel Combat 2",
+        "url": "https://grandcanyonshuttles.com/uploads/5/0/5/6/5056555/custom_themes/607463927942590340/pixel-combat2.html",
+        "img": "thumbnails/img50.jpg",
+    }, 
+    {
+        
+        "name": "Blocky Paint",
+        "url": "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/593675271171586975/modern_blocky_paint_.html",
+        "img": "thumbnails/img51.jpg",
+    },
+        {
+        
+        "name": "Slope Game",
+        "url": "https://bigfoot9999.github.io/Slope-Game/",
+        
+        "img": "thumbnails/img1.jpg",
+    },
+    {
+        "name": "Slope 2",
+        "url": "https://rga-bigfoot9999.vercel.app/src/slope-2/index.html",
+        
+        "img": "thumbnails/img15.jpg",
+    }, {
+        
+        "name": "Run 3",
+        "url": "https://theadvancedsociety-tam.tbt.mx/tam-run3/",
+        
+        "img": "thumbnails/img2.jpg",
+    }, 
+    {
+        
+        "name": "Burrito Bison",
+        "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html",
+        
+        "img": "thumbnails/img4.jpg",
+    },
+    {
+        
+        "name": "Champion island",
+        "url": "https://bigfoot9999.github.io/html5-games/games/google-kitsune/",
+        
+        "img": "thumbnails/img3.png",
+    },
+    {
+        
+        "name": "LZ: Link to Past",
+        "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_past",
+        
+        "img": "thumbnails/img5.jpg",
+    },
+    {
+        
+        "name": "LZ: Minish Cap",
+        "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#zelda_minish",
+        
+        "img": "thumbnails/img6.jpg",
+    },
+    {
+        
+        "name": "Mario Party",
+        "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#marioparty",
+        
+        "img": "thumbnails/img7.jpg",
+    },
+    {
+        
+        "name": "Mortal Kombat",
+        "url": "https://t-rexrunner.github.io/GBA-Games/launcher.html#mortal_kombat",
+        
+        "img": "thumbnails/img8.jpg",
+    },
+    {
+        
+        "name": "Kuru Panda",
+        "url": "https://www.panda2.io/content/games/kurupanda/",
+        
+        "img": "thumbnails/img9.png",
+    },
+    {
+        
+        "name": "Pappa's Taco Mia",
+        "url": "https://mazahacka2017.github.io/papa-taco-mia/",
+        
+        "img": "thumbnails/img10.png",
+    },
+    {
+        
+        "name": "Space Company",
+        "url": "https://spacecompany.ga/",
+        
+        "img": "thumbnails/img11.jpg",
+    },
+    {
+        "name": "FBWG",
+        "url": "https://rga-bigfoot9999.vercel.app/src/fireboy-and-watergirl-forest-temple/index.html",
+        
+        "img": "thumbnails/img12.png",
+    },
+    
+    {
+        "name": "FNF Week 6",
+        "url": "https://rga-bigfoot9999.vercel.app/src/friday-night-funkin--vs-ex/index.htmlsrc/friday-night-funkin--week-6/index.html",
+        
+        "img": "thumbnails/img13.jpg",
+    },
+    {
+        "name": "Rolling Sky",
+        "url": "https://rga-bigfoot9999.vercel.app/src/webgl-rollingsky/index.html",
+        
+        "img": "thumbnails/img14.png",
+    },
+    {
+        "name": "Tank Trouble",
+        "url": "https://rga-bigfoot9999.vercel.app/src/tanktrouble/index.html",
+        
+        "img": "thumbnails/img16.jpg",
+    },
+    {
+        "name": "Vex 3",
+        "url": "https://rga-bigfoot9999.vercel.app/src/vex3/index.html",
+        
+        "img": "thumbnails/img17.jpg",
+    },
+    {
+        "name": "Vex 4",
+        "url": "https://rga-bigfoot9999.vercel.app/src/vex4/index.html",
+        
+        "img": "thumbnails/img18.png",
+    },
+    {
+        "name": "Zombotron",
+        "url": "https://rga-bigfoot9999.vercel.app/src/zombotron/index.html",
+        
+        "img": "thumbnails/img19.jpg",
+    },
+    {
+        "name": "Zombotron 2",
+        "url": "https://rga-bigfoot9999.vercel.app/src/zombotron-2-time-machine/index.html",
+        
+        "img": "thumbnails/img20.png",
+    },
+    {
+        "name": "Insanity",
+        "url": "https://insanity.netlify.app/",
+        
+        "img": "thumbnails/img21.png",
+    },
+    {
+        "name": "Insanity 2",
+        "url": "https://insanity2.netlify.app/",
+        
+        "img": "thumbnails/img22.png",
+    },
+    {
+        "name": "Bottle Flip 3d",
+        "url": "https://grandcanyonshuttles.com/uploads/5/0/5/6/5056555/custom_themes/664718197367015386/bottle-flip.html",
+        
+        "img": "thumbnails/img23.jpg",
+    },
+    {
+        "name": "GTA",
+        "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/850704625817689097/gas2.html",
+        
+        "img": "thumbnails/img24.jpg",
+    },
+    {
+        "name": "CurveBall",
+        "url": "https://www2.engineering.com/content/g13/curve23.html",
+        
+        "img": "thumbnails/img25.jpg",
+    },
+    {
+        "name": "N-gon",
+        "url": "https://bigfoot9999.github.io/n-gon/",
+        
+        "img": "thumbnails/img26.png",
+    },
+    {
+        "name": "Headless.gg",
+        "url": "https://headless.gg/",
+        
+        "img": "thumbnails/img27.png",
+    },
+    {
+        "name": "OvO",
+        "url": "https://dedragames.com/games/ovo/1.4/",
+        "img": "thumbnails/img30.png",
+    },
+    {
+        "name": "Slither.io",
+        "url": "https://www.julgames.com/games/slither-snakes/",
+        "img": "thumbnails/img31.png",
+    },
+    {
+        "name": "Geometry Dash",
+        "url": "https://rga-bigfoot9999.vercel.app/src/geometry/index.html",
+        "img": "thumbnails/img33.png",
+    },
+    {
+        "name": "Woriar",
+        "url": "https://www.panda2.io/content/games/woriar/",
+        "img": "thumbnails/img38.png",
+    },
+    {   
+        "name": "lets Surf!",
+        "url": "https://bigfoot9999.github.io/html5-games/games/edge-surf/",
+        "img": "thumbnails/img52.jpg",
+        },
+       
+    {
+        
+        
+        "name": "Flappy 2048",
+        "url": "https://rga-bigfoot9999.vercel.app/src/flappy-2048/index.html",
+        "img": "thumbnails/img32.png",
+    }, 
+    {
+        
+        
+        "name": "Google Solitaire",
+        "url": "https://rga-bigfoot9999.vercel.app/src/google-solitaire/index.html",
+        "img": "thumbnails/img34.png",
+    }, 
+     {
+        
+        
+        "name": "Hextris",
+        "url": "https://rga-bigfoot9999.vercel.app/src/hextris/index.html",
+        "img": "thumbnails/img35.jpg",
+    }, {
+        
+        
+        "name": "Uno",
+        "url": "https://rga-bigfoot9999.vercel.app/src/uno/index.html",
+        "img": "thumbnails/img36.jpg",
+    }, {
+        "name": "There is no Game",
+        "url": "https://rga-bigfoot9999.vercel.app/src/there-is-no-game/index.html",
+        "img": "thumbnails/img37.jpg",
+    },
+         {
+        "name": "Celeste",
+        "url": "https://rga-bigfoot9999.vercel.app/src/celeste/celeste.html",
+        "img": "thumbnails/img44.jpg",
+    },{
+        "name": "Chroma",
+        "url": "https://rga-bigfoot9999.vercel.app/src/chroma/index.html",
+        "img": "thumbnails/img43.png",
+    },{
+        "name": "Doodle Jump",
+        "url": "https://rga-bigfoot9999.vercel.app/src/doodle-jump/index.html",
+        "img": "thumbnails/img39.png",
+    },{
+        "name": "Economical",
+        "url": "https://rga-bigfoot9999.vercel.app/src/economical/index.html",
+        "img": "thumbnails/img41.gif",
+    },{
+        "name": "Economical 2",
+        "url": "https://rga-bigfoot9999.vercel.app/src/economical2/index.html",
+        "img": "thumbnails/img42.png",
+    },
+    {
+        "name": "Flappy Bird",
+        "url": "https://rga-bigfoot9999.vercel.app/src/flappybird/index.html",
+        "img": "thumbnails/img40.png",
+    },{
+        "name": "Space Invaders",
+        "url": "https://rga-bigfoot9999.vercel.app/src/spaceinvaders/index.htmll",
+        "img": "thumbnails/img57.jpg",
+    },
+    {
+            "name": "Drift Hunters",
+            "url": "https://rga-bigfoot9999.vercel.app/src/drift-hunters/index.html",
+            "img": "thumbnails/img53.png",
+        }, 
+        {
+            "name": "Fire Truck Dash",
+            "url": "https://rga-bigfoot9999.vercel.app/src/fire-truck-dash/index.html",
+            "img": "thumbnails/img54.png",
+        }, 
+        {
+            "name": "Super Car Parking",
+            "url": "https://files.vitalitygames.com/games/webgl/2017/09/11/supercar-police-parking-2/index.html",
+            "img": "thumbnails/img56.png",
+        }, 
+        
+        {
+            "name": "RTD2",
+            "url": "https://rga-bigfoot9999.vercel.app/src/russian-taz-magmes/index.html",
+            "img": "thumbnails/img55.jpg",
+           },
+]
+
+function reloadpage() {
+  location.reload();
+}
+            //end array for game links
+            
+            buttonArr.forEach(function(arrayItem) {
+                let link = arrayItem.url;
+                let name = arrayItem.name;
+                let category = arrayItem.category;
+                
+                document.getElementById('buttonDiv').innerHTML += `<div class="span1"><div class="card"><a onclick="openGame('${arrayItem.url}')" onclick="reloadpage();" href="javascript:void(0);"><img src="${arrayItem.img}" alt="${arrayItem.name}.png" style="width:100%"></a><p3>${arrayItem.name}</p3></div></div>`;
+            } );
+            //end game code
+            let win;
+            function openGame(link) {
+                if (win) {
+                    win.focus();
+                    return;
+                }
+                win = window.open();
+                win.document.body.style.margin = '0';
+                win.document.body.style.height = '100vh';
+                const iframe = win.document.createElement('iframe');
+                iframe.style.border = 'none';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.style.margin = '0';
+                iframe.src = link;
+                win.document.body.appendChild(iframe);
+            }
+                    </script>
+                </div>
+            </div>
+            <div class="footer">
+                <div>
+                    <a href="https://discord.gg/6zaFExrqy6"><i class="ri-discord-line"></i></a></i><a href="https://github.com/bigfootsgs"><i class="ri-github-line"></i></a><a href="https://twitter.com/Bigfoot99991"><i class="ri-twitter-line"></i></a>
+    
+                </div>
+                    
+                <h3>Copyright (c) 2022 Bigfoot9999</h3>
+                <br>
+                </div>
+            </div>
+            <!--END FOOTER-->
+        </body>
