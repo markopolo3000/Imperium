@@ -1,4 +1,4 @@
-
+/*
   var key;
   var password="password";
   key = prompt("Please enter the password");
@@ -11,3 +11,4 @@
 }
 
 
+*/
